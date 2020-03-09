@@ -1071,9 +1071,10 @@ textarea.form-control {
 
 
 .ftco-footer {
+
 	font-size: 16px;
 	background: $primary;
-	padding: 8em 5em 8em 5em;
+	padding: 8em 0 8em 0;
 	.ftco-footer-logo {
 		align-items: center;
 		text-transform: uppercase;
@@ -1108,6 +1109,7 @@ textarea.form-control {
 		}
 	}
 	.ftco-heading-2 {
+		text-align: center;
 		font-size: 17px;
 		font-weight: 400;
 		color: $black;
