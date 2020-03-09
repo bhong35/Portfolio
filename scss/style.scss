@@ -1075,12 +1075,13 @@ textarea.form-control {
 	background: $primary;
 	padding: 8em 5em 8em 5em;
 	.ftco-footer-logo {
+		align-items: center;
 		text-transform: uppercase;
 		letter-spacing: .1em;
 	}
 	.ftco-footer-widget {
 		h2 {
-			align-items: :center;
+			align-items: center;
 			font-weight: normal;
 			color: $white;
 			margin-bottom: 40px;
