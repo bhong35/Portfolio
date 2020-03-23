@@ -228,6 +228,13 @@ fieldset {
   margin: 0;
   border: 0; }
 
+  box-project {
+    width: 500px;
+    height: 100px;
+    padding-left: 15px;
+    padding-top: 15px;
+      }
+
 legend {
   display: block;
   width: 100%;
