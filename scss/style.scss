@@ -1757,6 +1757,14 @@ textarea.form-control {
 	}
 }
 
+//transparent box
+.transparent-box-Project{
+    width: 300px;
+    height: 80px;
+    padding-left: 15px;
+    padding-top: 15px;
+    background: rgba(255,0,0,.5);
+}
 //### .block-4
 .block-4 {
 	.nonloop {
