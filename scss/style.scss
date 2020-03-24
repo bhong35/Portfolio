@@ -1440,6 +1440,16 @@ textarea.form-control {
 				}
 			}
 		}
+		.heading-Project {
+			font-size: 20px;
+			margin-bottom: 10px;
+			a {
+				color: $black;
+				&:hover, &:focus, &:active {
+					color: $primary;
+				}
+			}
+		}
 		.meta-chat{
 			color: lighten($black, 40%);
 		}
