@@ -250,6 +250,8 @@ textarea {
   line-height: inherit;
 }
 
+rmwidget widget-picture {transition: opacity .2s ease}
+
 button,
 input {
   overflow: visible;
