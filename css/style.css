@@ -569,9 +569,14 @@ pre code {
     max-width: 960px;
   }
 }
-@media (min-width: 1500px) {
-  .container-skill {
+@media (min-width: 1200px) {
+  .container {
     max-width: 1140px;
+  }
+}
+@media (min-width: 1200px) {
+  .container-skill {
+    max-width: 1500px;
   }
 }
 
