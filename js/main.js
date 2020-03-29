@@ -28,7 +28,15 @@
 		}
 	};
 
-
+  TweenMax.staggerFromTo('#Line',2,
+    { drawSVG:"90% 10%",stroke:'#ff0',strokeWidth:4 },
+    { drawSVG:"-20% -2%",stroke:'#FFffff',repeat:-1,
+      cycle:{
+      strokeWidth:function(){return Math.random()*2+1},
+      delay:function(){return Math.random()*3},
+      repeatDelay:function(){return Math.random()*2}
+    },repeat:-1},0);
+    
 	$(window).stellar({
     responsive: true,
     parallaxBackgrounds: true,
@@ -291,7 +299,7 @@
 
     fixedContentPos: false
   });
-  
+
 
 
 })(jQuery);
