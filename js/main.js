@@ -28,7 +28,7 @@
 		}
 	};
 
-  TweenMax.staggerFromTo('#Line',2,
+/*  TweenMax.staggerFromTo('#Line',2,
     { drawSVG:"90% 10%",stroke:'#ff0',strokeWidth:4 },
     { drawSVG:"-20% -2%",stroke:'#FFffff',repeat:-1,
       cycle:{
@@ -36,6 +36,8 @@
       delay:function(){return Math.random()*3},
       repeatDelay:function(){return Math.random()*2}
     },repeat:-1},0);
+
+    for scroll animation */
     
 	$(window).stellar({
     responsive: true,

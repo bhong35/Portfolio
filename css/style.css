@@ -549,14 +549,14 @@ pre code {
   overflow-y: scroll;
 }
 
-.Scroll-bar {
+/*.Scroll-bar {
   position: absolute;
   width: 100px;
   height: 100px;
   left: 5px;
   top: 5px;
 
-}
+}  for scroll animation */
 
 .container {
   width: 100%;
