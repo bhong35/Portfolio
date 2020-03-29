@@ -9896,23 +9896,6 @@ textarea.form-control {
   display: block;
 }
 
-.grid{
-  display: grid;
-  padding: 30px;
-  justify-content: center;
-  grid-template-columns: repeat(3,1fr);
-  grid-column-gap:  20px;
-}
-
-.item:nth-child(3){
-  order: -1;
-}
-
-.item:nth-child(1){
-  order: -1;
-}
-
-
 
 .blog-entry {
   background: #fff;
