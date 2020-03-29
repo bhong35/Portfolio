@@ -9896,6 +9896,24 @@ textarea.form-control {
   display: block;
 }
 
+.grid{
+  display: grid;
+  padding: 30px;
+  justify-content: center;
+  grid-template-columns: repeat(3,1fr);
+  grid-column-gap:  20px;
+}
+
+.item:nth-child(3){
+  order: -1;
+}
+
+.item:nth-child(1){
+  order: -1;
+}
+
+
+
 .blog-entry {
   background: #fff;
   -webkit-box-shadow: 0px 4px 18px -12px rgba(0, 0, 0, 0.75);
