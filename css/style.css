@@ -523,7 +523,7 @@ mark,
   transform-origin: top;
   animation: barAnime 3s linear 0x infinite;
 }
-.barAnime {
+@@keyframes barAnime {
   animation-duration: 3s;
   animation-timing-function: linear;
   animation-delay: 0s;
