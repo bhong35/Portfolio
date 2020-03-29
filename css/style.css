@@ -502,6 +502,38 @@ mark,
   color: #6c757d;
 }
 
+.scrollblock__bar {
+  position: relative;
+  width: 4px;
+  height: 60px;
+  background-color: #c6c8ca;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  transform: translateX(2px);
+}
+
+.scrollblock__bar:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -100%;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  animation: barAnime 3s linear 0x infinite;
+}
+.barAnime {
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-name: barAnime;
+}
+
+
 code,
 kbd,
 pre,
