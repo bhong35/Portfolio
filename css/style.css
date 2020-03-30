@@ -8966,6 +8966,14 @@ h1, h2, h3, h4, h5, h6
   background: #ee76ad;
 }
 
+.aboutme {
+  padding: 15px;
+  font-size: 17px;
+  text-align: left;
+  top: 600px;
+  right: 400px;
+}
+
 .btn {
   cursor: pointer;
   -webkit-border-radius: 30px;
