@@ -10697,7 +10697,7 @@ textarea.form-control {
   transform-originL right top;
   overflow-y: auto;
   overflow-x: hidden;
-  padding: 2em;
+  padding: 0;
   height: 100vw;
   perspective: 1px;
     transform-style:preserve-3d;
