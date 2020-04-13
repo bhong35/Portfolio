@@ -10681,7 +10681,67 @@ textarea.form-control {
       -webkit-animation-name: fadeInLeft;
       animation-name: fadeInLeft;
     }
+*/
 
+.external {
+  overflow: hidden;
+  height: 100vh;
+}
 
+.horizontal-scroll-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-item: center;
+  width: 100vh;
+  transform: rotate(-90deg) translate3d(0, 0100vh, 0);
+  transform-originL right top;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 2em;
+  height: 100vw;
+  perspective: 1px;
+    transform-style:preserve-3d;
+  padding-bottom: : 10rem;
+}
+ .image-wrapper {
+   transform: rotate(90deg);
+   display: felx;
+   align-item: center;
+   justify-content: center;
+   min-heigh: 40vh;
+   transform-origin: 50% 50%;
+   transform: rotate(90deg) translateZ(.1px) scale(0.9) translateX(0px) translateY(-3vh);
+   transition: 1s;
+ }
+ .img-wrapper:hover {
+ min-height: 65vh;
+}
 
+.slower {
+  transform: rotate(90deg) translateZ(-.2px) scale(1.1) translateX(0%) translateY(-10vh);
+}
+.faster {
+  transform: rotate(90deg) translateZ(.15px) scale(0.8) translateX(0%) translateY(14vh) ;
+}
+
+ .scroll-info {
+  display: flex;
+  align-items: center;
+}
+
+a:hover img {
+  filter: none;
+}
+
+.img-wrapper a {
+  overflow: hidden;
+  display: block;
+  padding: 1vh ;
+  background: #efecdb;
+  box-shadow: 0 10px 50px #5f2f1182;
+}
+
+.scroll-info {
+  top: 1rem;
+}
 /*# sourceMappingURL=style.css.map */
