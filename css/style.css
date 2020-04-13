@@ -10700,8 +10700,8 @@ textarea.form-control {
   padding: 0;
   height: 100vw;
   perspective: 1px;
-    transform-style:preserve-3d;
-  padding-bottom: : 10rem;
+    transform-style: preserve-3d;
+  padding-bottom: : 5rem;
 }
  .image-wrapper {
    transform: rotate(90deg);
@@ -10736,7 +10736,7 @@ a:hover img {
 .img-wrapper a {
   overflow: hidden;
   display: block;
-  padding: 1vh ;
+  padding: 0 ;
   background: #efecdb;
   box-shadow: 0 10px 50px #5f2f1182;
 }
