@@ -10683,16 +10683,16 @@ textarea.form-control {
     }
 */
 
-::-webkit-scrollbar {
+/*::-webkit-scrollbar {
   width: 1px;
   height: 1px;
-  display: none;
-}
+} */
+.element::-webkit-scrollbar { width: 0 !important }
+
 
 ::-webkit-scrollbar-button {
   width: 1px;
   height: 1px;
-  display: none;
 }
 
 .external {
