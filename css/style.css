@@ -10688,12 +10688,14 @@ textarea.form-control {
   overflow: hidden;
   height: 300vh;
 }
+.element::-webkit-scrollbar { width: 0 !important }
+/*
 .external::-webkit-scrollbar {
   display: none;
   width: 1px;
   height: 1px;
 }
-
+*/
 
 ::-webkit-scrollbar-button {
   width: 1px;
