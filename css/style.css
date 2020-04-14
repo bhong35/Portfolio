@@ -10689,7 +10689,7 @@ textarea.form-control {
   height: 300vh;
 }
 .external::-webkit-scrollbar {
-  overflow: hidden;
+  display: none;
   width: 1px;
   height: 1px;
 }
