@@ -10707,7 +10707,7 @@ textarea.form-control {
   transform-originL right top;
   overflow-y: auto;
   overflow-x: hidden;
-  padding: 0;
+  padding: 30px;
   height: 100vw;
   perspective: 1px;
   transform-style: preserve-3d;
@@ -10766,7 +10766,7 @@ a:hover img {
 }
 
 img {
-  max-width: 60vh;
+  max-width: 30vh;
   max-height: 60vh;
   transition: .5s;
   vertical-align: center;
