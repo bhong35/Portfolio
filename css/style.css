@@ -10756,10 +10756,7 @@ textarea.form-control {
   transform: rotate(90deg) translateZ(-.2px) scale(1.1) translateX(25vh) translateY(-8vh) ;
 }
 
- .scroll-info {
-  display: flex;
-  align-items: center;
-}
+
 
 a:hover img {
   filter: none;
@@ -10778,6 +10775,11 @@ img {
   padding: 0 ;
   background: #efecdb;
   box-shadow: 0 10px 50px #5f2f1182;
+}
+
+.scroll-info, header {
+  position: absolute;
+  left: 1rem;
 }
 
 .scroll-info {
