@@ -10706,7 +10706,7 @@ textarea.form-control {
   display: flex;
   flex-direction: column;
   align-item: left;
-  width: 100vh;
+  width: 200vh;
   transform: rotate(-90deg) translate3d(0, 0100vh, 0);
   transform-originL right top;
   overflow-y: auto;
