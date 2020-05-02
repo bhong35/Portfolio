@@ -10719,7 +10719,7 @@ textarea.form-control {
 }
  .image-wrapper {
    transform: rotate(90deg);
-   display: felx;
+   display: flex;
    align-item: center;
    justify-content: center;
    min-heigh: 40vh;
