@@ -8588,6 +8588,8 @@ a.text-dark:hover, a.text-dark:focus {
 body {
   font-family: "Work Sans", Arial, sans-serif;
   background: #fff;
+  background-size: cover;
+  background-
   font-size: 16px;
   line-height: 1.8;
   font-weight: 300;
