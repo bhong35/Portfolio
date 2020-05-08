@@ -64,7 +64,7 @@ h1 {
 .item-a {
     width: 400px;
     height:100px;
-    position: relative;
+    position: absolute;
     line-height:1.5;
     top: 50%;
     right: 10%;
