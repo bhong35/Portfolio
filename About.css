@@ -56,6 +56,16 @@ canvas {
   height: 100%;
 }
 
+h1 {
+  font-weight: 300;
+  font-size: 11pt;
+}
+
+.item-a {
+  align-self: left;
+  grid-column: 2/ 2;
+  grid-row: 1;
+}
 /*END BODY */
 
 .external {
@@ -107,10 +117,7 @@ a {
   font-weight: 500;
   
 }
-h1 {
-  font-weight: 300;
-  font-size: 1rem;
-}
+
 
 }
 a:hover img {
