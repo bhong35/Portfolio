@@ -61,6 +61,11 @@ h1 {
   font-size: 11.5pt;
 }
 
+h2 {
+  font-weight: 500;
+  font-size: 19pt;
+}
+
 .item-a {
     width: 400px;
     height:100px;
@@ -78,6 +83,17 @@ h1 {
   position: absolute;
   top: 40%;
   left: 10%;
+  margin-top: -50px;
+  margin-left: -50px;
+}
+
+.item-c {
+  width: 400px;
+  height:100px;
+  position: absolute;
+  line-height:1.5;
+  top: 20%;
+  right: 10%;
   margin-top: -50px;
   margin-left: -50px;
 }
