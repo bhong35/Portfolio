@@ -62,9 +62,10 @@ h1 {
 }
 
 .item-a {
-    width:300px;
+    widows: 400px;
     height:100px;
     position: fixed;
+    line-height:1.5;
     top: 40%;
     right: 20%;
     margin-top: -50px;
