@@ -88,14 +88,13 @@ h2 {
 }
 
 .item-c {
-  width: 300px;
+  width: 100px;
   height:100px;
   position: absolute;
   line-height:1.5;
-  top: 70%;
+  bottom: 20%;
   right: 10%;
   margin-top: -50px;
-  margin-left: -50px;
 }
 
 
