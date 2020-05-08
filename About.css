@@ -88,11 +88,11 @@ h2 {
 }
 
 .item-c {
-  width: 50px;
+  width: 40px;
   height:100px;
   position: absolute;
   line-height:1.5;
-  bottom: 20%;
+  bottom: 50%;
   right: 10%;
   margin-top: -50px;
   margin-left: 20px;
@@ -101,6 +101,7 @@ h2 {
 
 .sns:hover {
   opacity: 0.7;
+  margin-right: 5px;
 }
 
 /*END BODY */
