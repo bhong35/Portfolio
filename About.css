@@ -62,10 +62,14 @@ h1 {
 }
 
 .item-a {
-  
-  position: absolute;
-  right: 100;
-  width: 200; 
+  width:100px;
+    height:100px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    border:10px solid #ee3e64; 
 }
 /*END BODY */
 
