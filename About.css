@@ -2,7 +2,6 @@
 
 .topnav {
   overflow: hidden;
-  background-color: none;
 }
 
 .topnav a {
@@ -15,7 +14,6 @@
 }
 
 .topnav a:hover {
-  background-color: none;
   color: #bababa;
 }
 
@@ -27,13 +25,18 @@
 
 /*BODY*/
 body {
+  background-color: #161424;
   font-family: Hepta Slab, sans-serif;
   font-weight: 500;
-  background-color: #181926;
   color: #ffffff;
 }
 * {
   box-sizing: content-box;
+}
+
+canvas {
+  display:block;
+  vertical-align: bottom;
 }
 
 /* hide scrollbar */
