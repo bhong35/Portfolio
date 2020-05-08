@@ -62,11 +62,11 @@ h1 {
 }
 
 .item-a {
-  width:100px;
+    width:300px;
     height:100px;
     position: fixed;
-    top: 50%;
-    left: 50%;
+    top: 40%;
+    right: 20%;
     margin-top: -50px;
     margin-left: -50px;
 }
