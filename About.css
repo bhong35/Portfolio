@@ -63,7 +63,7 @@ h1 {
 
 h2 {
   font-weight: 500;
-  font-size: 19pt;
+  font-size: 20pt;
 }
 
 .item-a {
@@ -97,5 +97,11 @@ h2 {
   margin-top: -50px;
   margin-left: -50px;
 }
+
+
+.sns:hover {
+  opacity: 0.7;
+}
+
 /*END BODY */
 
