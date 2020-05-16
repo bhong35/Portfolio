@@ -86,15 +86,18 @@ p {
 .item-a {
   width: 400px;
   height:470px;
+  top: 43%;
+  left: 45%;
   position: absolute;
   background-color: #ff4d4d;
 }
 
 .item-b {
-  width: 400px;
-  height:470px;
+  width: 350px;
+  height:150px;
   position: absolute;
-  background-color: #ff3d3d;
-  top: 70%;
-  right: 10%;
+  background-color: #ff4d4d;
+  margin: 0;
+  top: 200%;
+  right: 0%;
 }
