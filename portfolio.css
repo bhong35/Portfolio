@@ -86,7 +86,7 @@ p {
 .item-a {
   width: 330px;
   height:400px;
-  top: 20%;
+  top: 16%;
   left: 40%;
   position: absolute;
   background-color: #ff4d4d;
@@ -98,6 +98,6 @@ p {
   position: absolute;
   background-color: #8cd1cf;
   margin: 0;
-  top: 85%;
+  top: 80%;
   right: 0%;
 }
