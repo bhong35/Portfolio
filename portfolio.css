@@ -18,7 +18,7 @@
 }
 
 .topnav a.active {
-  color: #f3c8f7;
+  color: #4166f5;
 }
 
 body {
@@ -96,7 +96,7 @@ p {
   width: 330px;
   height:130px;
   position: absolute;
-  background-color: #ff4d4d;
+  background-color: #8cd1cf;
   margin: 0;
   top: 85%;
   right: 0%;
