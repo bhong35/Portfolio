@@ -102,34 +102,6 @@ p {
   right: 0%;
 }
 
-.container:before {
-  width: 330px;
-  height: 131px;
-  overflow: hidden;
-  transition: all 0.3s;
-
-}
-
-.container:hover:before {
-  transform: translate3d(0px, -150px, 0px);
-}
-
-
-.overlay {
-  width: 330px;
-  height: 131px;
-  position: absolute;
-  left: 100%;
-  right: 0;
-  background-color: #008CBA;
-  overflow: hidden;
-  transition: .5s ease;
-}
-.overlay:hover {
-  width: 100%;
-  left: 0;
-}
-
 
 /* underline left to right 
 
