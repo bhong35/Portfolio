@@ -5,7 +5,7 @@
 
 .topnav a {
   float: right;
-  color: #000000;
+  color: #bababa;
   text-align: center;
   padding: 14px 15px;
   text-decoration: none;
@@ -14,7 +14,7 @@
 
 .topnav a:hover {
   background-color: none;
-  color: #bababa;
+  color: #000000;
 }
 
 .topnav a.active {
@@ -66,13 +66,6 @@ h1 {
   font-size: 1rem;
 }
 
-.img-wrapper a {
-  overflow: hidden;
-  display: contents;
-  padding: 1vh ;
-  background: #efecdb;
-  box-shadow: 0 10px 50px #263984c7;
-}
 img {
   max-width: 60vh;
   max-height: 70vh;
@@ -89,7 +82,12 @@ p {
   display: flex;
   align-items: center;
 }
-.icon svg {
-    width: 50px;
-    fill: currentcolor;
+
+.item-a {
+  width: 400px;
+  height:400px;
+  position: absolute;
+  margin-top: -50px;
+  margin-left: -50px;
+  background-color: #ff4d4d;
 }
