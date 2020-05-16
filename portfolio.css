@@ -102,17 +102,15 @@ p {
   right: 0%;
 }
 
-.container {
+.container:before {
   width: 330px;
   height: 131px;
   overflow: hidden;
-}
-.container img {
-  transition: transform .2s ease-in-out;
+  transition: all 0.3s;
 
 }
 
-.container img:hover {
+.container:hover:before {
   transform: translate3d(0px, -150px, 0px);
 }
 
