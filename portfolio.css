@@ -89,3 +89,12 @@ p {
   position: absolute;
   background-color: #ff4d4d;
 }
+
+.item-b {
+  width: 400px;
+  height:470px;
+  position: absolute;
+  background-color: #ff4d4d;
+  top: 70%
+  right: 10%;
+}
