@@ -84,20 +84,20 @@ p {
 }
 
 .item-a {
-  width: 400px;
-  height:470px;
-  top: 28%;
+  width: 330px;
+  height:400px;
+  top: 23%;
   left: 42%;
   position: absolute;
   background-color: #ff4d4d;
 }
 
 .item-b {
-  width: 350px;
-  height:150px;
+  width: 300px;
+  height:100px;
   position: absolute;
   background-color: #ff4d4d;
   margin: 0;
-  top: 200%;
+  top: 80%;
   right: 0%;
 }
