@@ -82,7 +82,8 @@ h3 {
   font-size: 55pt;
   color: #000000; 
   text-shadow: 4px 4px 0px #ffffff;
-  bottom: 20%;
+  position: absolute;
+  bottom: 3%;
   right: 0%;
 }
 .yearbox {
@@ -112,6 +113,7 @@ h3 {
   width: 330px;
   height: 131px;
   position: absolute;
+  z-index: -1;
   background-color: #8cd1cf;
   margin: 0;
   top: 80%;
