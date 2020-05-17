@@ -34,10 +34,7 @@ body {
   box-sizing: content-box;
 }
 
-canvas {
-  display:block;
-  vertical-align: bottom;
-}
+
 
 /* hide scrollbar */
 ::-webkit-scrollbar {
