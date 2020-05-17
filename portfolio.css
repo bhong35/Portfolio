@@ -20,11 +20,7 @@
 .topnav a.active {
   color: #4166f5;
 }
-img {
-  width: 100%;
-  height: auto;
-  image-rendering: auto;
-}
+
 body {
   font-family: Hepta Slab, sans-serif;
   font-weight: 500;
@@ -96,7 +92,7 @@ h3 {
 h4 {
   font-weight: 300;
   font-size: 11pt;
-  line-height: ;
+  line-height: 1.4;
   color: #000000;
 }
 
