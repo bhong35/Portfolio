@@ -86,6 +86,13 @@ h3 {
   bottom: 3%;
   right: 0%;
 }
+
+h4 {
+  font-weight: 300;
+  font-size: 13pt;
+  color: #000000;
+}
+
 .yearbox {
   top: 20%;
   left: 22%;
