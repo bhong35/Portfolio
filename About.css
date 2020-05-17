@@ -99,5 +99,10 @@ h2 {
   margin-right: 5px;
 }
 
+a {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 /*END BODY */
 
