@@ -62,8 +62,9 @@ a {
   
 }
 h1 {
-  font-weight: 300;
-  font-size: 1rem;
+  font-weight: 400;
+  font-size: 36pt;
+  color: #000000; 
 }
 
 img {
