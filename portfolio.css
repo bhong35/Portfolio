@@ -62,9 +62,9 @@ a {
 }
 h1 {
   font-weight: 500;
-  font-size: 400pt;
+  font-size: 40pt;
   color: #000000; 
-  text-shadow: 2px 2px 4px #ffffff;
+  text-shadow: 2px 2px 0px #ffffff;
 }
 
 .yearbox {
