@@ -74,8 +74,16 @@ h2 {
   transform: rotate(-90deg);
   position: absolute;
   top: 59%;
-  right:27%;
+  right:26.5%;
+}
 
+h3 {
+  font-weight: 500;
+  font-size: 55pt;
+  color: #000000; 
+  text-shadow: 4px 4px 0px #ffffff;
+  bottom: 20%;
+  right: 0%;
 }
 .yearbox {
   top: 20%;
@@ -85,10 +93,6 @@ h2 {
   position: absolute;
   margin: 0;
 }
-
-.
-
-
 .scroll-info {
   display: flex;
   align-items: center;
