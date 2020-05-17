@@ -71,15 +71,14 @@ h2 {
     height:100px;
     position: absolute;
     line-height:1.5;
-    top: 50%;
-    right: 10%;
-    margin-top: -50px;
-    margin-left: -50px;
+    top: 27%;
+    right: 12%;
+
 }
 
 .item-b {
-  top: 40%;
-  left: 20%;
+  top: 20%;
+  left: 10%;
 }
 
 .item-c {
@@ -87,10 +86,8 @@ h2 {
   height: 100px;
   position: absolute;
   line-height:1.5;
-  bottom: -10%;
-  right: 20%;
-  margin-top: -50px;
-  margin-left: -40px;
+  bottom: 30%;
+  right: 35%;
 }
 
 
