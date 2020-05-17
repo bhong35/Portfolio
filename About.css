@@ -34,7 +34,10 @@ body {
   box-sizing: content-box;
 }
 
-
+canvas {
+  display:none;
+  vertical-align: bottom;
+}
 
 /* hide scrollbar */
 ::-webkit-scrollbar {
@@ -92,6 +95,8 @@ h2 {
   opacity: 0.7;
   margin-right: 5px;
 }
+
+
 
 /*END BODY */
 
