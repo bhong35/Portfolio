@@ -23,6 +23,7 @@
 img {
   width: 100%;
   height: auto;
+  image-rendering: auto;
 }
 body {
   font-family: Hepta Slab, sans-serif;
