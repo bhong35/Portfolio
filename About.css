@@ -78,7 +78,9 @@ h2 {
 
 .item-b {
   top: 20%;
-  left: 10%;
+  left: 20%;
+  margin-left: 3rem;
+  z-index: 1;
 }
 
 .item-c {
