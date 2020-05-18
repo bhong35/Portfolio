@@ -97,7 +97,10 @@ h2 {
  height: 50px;
  position: absolute;
 display: flex;
+flex-wrap: wrap;
 flex-flow: row wrap;
+align-self: flex-start;
+order: 3;
 
 }
 
