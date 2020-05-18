@@ -92,18 +92,14 @@ h2 {
   right: 35%;
 }
 
-.item-d {
+.icon a{
  width: 200px;
- height: 50px;
- position: absolute;
- bottom: 20%;
- right: 45%;
-display: flex;
-flex-wrap: wrap;
-flex-flow: row wrap;
-align-self: flex-start;
-order: 3;
+ height: 300px;
+ display: inline-block;
+}
 
+.icon a:nth-child(3n+3) {
+  background-color: black;
 }
 
 
@@ -112,10 +108,6 @@ order: 3;
   margin-right: 5px;
 }
 
-a {
-  display: flex;
-  flex-wrap: wrap;
-}
 
 /*END BODY */
 
