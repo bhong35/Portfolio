@@ -94,20 +94,22 @@ h2 {
 }
 
 .icon {
+  overflow:hidden;
+}
+
+.icon a{
   width: 100px;
   height: 100px;
-  position: absolute;
+  position: static;
   bottom: 24%;
   right: 35%;
 }
 
 .sns {
-  width: 15%;
-  height: auto;
   margin-right: 15px;
 }
 .sns:hover {
-  opacity: 0.7;
+  opacity: 0.5;
   margin-right: 5px;
 }
 
