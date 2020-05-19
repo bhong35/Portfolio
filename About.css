@@ -93,11 +93,9 @@ h2 {
   right: 35%;
 }
 
-.icon {
-  padding-right: 10px;
-}
-.icon a:hover {
+.item-c a:hover {
   color: #f3c8f7;
+  margin-right: 5px;
 }
 
 
