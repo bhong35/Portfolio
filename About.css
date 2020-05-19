@@ -71,7 +71,7 @@ h2 {
 
 .item-b {
   top: 20%;
-  left: 20%;
+  left: 10%;
   position: absolute;
   margin-left: 3rem;
   z-index: 1;
@@ -82,10 +82,8 @@ h2 {
   height: 100px;
   position: absolute;
   line-height:1.5;
-  margin-left: 40px;
   top: 23.5%;
   right: 20%;
-  z-index: 1;
 }
 
 .item-c a:hover {
