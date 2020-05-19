@@ -95,7 +95,8 @@ h2 {
 
 .item-c a:hover {
   color: #f3c8f7;
-  margin-right: 5px;
+  outline-color: aqua;
+  opacity: .7;
 }
 
 
