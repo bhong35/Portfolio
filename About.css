@@ -94,7 +94,6 @@ h2 {
 }
 
 .icon {
-  overflow:hidden;
   position: absolute;
   bottom: 30%;
   right: 35%;
@@ -102,9 +101,9 @@ h2 {
 }
 
 .icon a{
-  width: 35px;
-  height: auto;
-  position: static;
+  width: 100px;
+  height: 100px;
+  position: absolute;
   padding: 0px 20px;
   bottom: 24%;
   right: 35%;
