@@ -82,8 +82,10 @@ h2 {
   height: 100px;
   position: absolute;
   line-height:1.5;
+  margin-left: 40px;
   top: 23.5%;
   right: 20%;
+  z-index: 1;
 }
 
 .item-c a:hover {
