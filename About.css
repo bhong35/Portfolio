@@ -107,6 +107,8 @@ h2 {
 
 .sns {
   margin-right: 15px;
+  width: 35px;
+  height: auto;
 }
 .sns:hover {
   opacity: 0.5;
