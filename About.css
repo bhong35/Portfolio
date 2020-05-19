@@ -95,25 +95,26 @@ h2 {
 
 .icon {
   overflow:hidden;
+  position: relative;
+  top: 20px;
 }
 
 .icon a{
-  width: 100px;
-  height: 100px;
+  width: 35px;
+  height: auto;
   position: static;
+  padding: 0px 20px;
   bottom: 24%;
   right: 35%;
 }
 
-.sns {
-  margin-right: 15px;
-  width: 35px;
-  height: auto;
-}
-.sns:hover {
+.icon a:hover {
   opacity: 0.5;
   margin-right: 5px;
 }
+
+
+
 
 
 
