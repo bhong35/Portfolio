@@ -67,30 +67,23 @@ h2 {
   font-size: 18pt;
 }
 
-.item-a {
-    width: 400px;
-    height:100px;
-    position: absolute;
-    line-height:1.5;
-    top: 27%;
-    right: 15.5%;
 
-}
 
 .item-b {
   top: 20%;
   left: 20%;
+  position: absolute;
   margin-left: 3rem;
   z-index: 1;
 }
 
 .item-c {
-  width: 150px;
+  width: 400px;
   height: 100px;
   position: absolute;
   line-height:1.5;
-  bottom: 30%;
-  right: 35%;
+  top: 23.5%;
+  right: 20%;
 }
 
 .item-c a:hover {
