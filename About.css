@@ -93,21 +93,7 @@ h2 {
   right: 35%;
 }
 
-.icon {
-  position: relative;
-  bottom: -100%;
-  right: 35%;
-
-}
-
-.icon a{
-  width: 100px;
-  height: 100px;
-  bottom: 24%;
-  right: 35%;
-}
-
-.icon a:hover {
+.item-c a:hover {
   opacity: 0.5;
   margin-right: 5px;
 }
