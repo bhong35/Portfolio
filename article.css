@@ -78,7 +78,7 @@ header {
   -webkit-transform: rotate(135deg);
 }
 
-.item-a {
+item-a {
 width: 300px;
 padding: 2rem;
 position: relative;
