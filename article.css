@@ -78,7 +78,7 @@ header {
   -webkit-transform: rotate(135deg);
 }
 
-item-a {
+.item-a {
 width: 100%;
 position: relative;
 background-color: #ff4d4d;
