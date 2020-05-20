@@ -79,7 +79,8 @@ header {
 }
 
 .item-a {
-width: 100%;
+width: 300px;
+padding: 2rem;
 position: relative;
 background-color: #ff4d4d;
 
