@@ -81,6 +81,8 @@ header {
 .item-a {
 width: 300px;
 height: 150px;
+justify-content: center;
+top: 20%;
 padding: 2rem;
 position: relative;
 background-color: #ff4d4d;
