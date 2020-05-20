@@ -49,6 +49,7 @@
   position: fixed;
   border: solid #bababa;
   border-width: 0 5px 5px 0;
+  z-index: 1;
   display: inline-block;
   margin: 25px;
 }
@@ -62,6 +63,14 @@
   transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
 }
+
+header {
+  bottom: 1rem;
+}
+.scroll-info {
+  top: 1rem;
+}
+
 body {
   font-family: Hepta Slab, sans-serif;
   font-weight: 500;
@@ -71,24 +80,17 @@ body {
   box-sizing: content-box;
 }
 h1 {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 25pt;
   color: #000000;
   position: relative;
   text-align: center;
 }
 
-header {
-  bottom: 1rem;
-}
-.scroll-info {
-  top: 1rem;
-}
-
 .item-a {
   width: 70vw;
   height: 20vw;
-  position: relative;
+  position: absolute;
   margin: auto;
   top: 50px;
   padding: 2rem;
