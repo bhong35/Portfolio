@@ -131,6 +131,14 @@ h4 {
   right: 0%;
 }
 
+.item-c {
+  top: 16%;
+  left: 40%;
+  z-index: 1;
+  position: absolute;
+
+}
+
 .next-hover {
   display: block;
   text-decoration: none;
