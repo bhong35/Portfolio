@@ -1,3 +1,23 @@
+
+/* hide scrollbar */
+::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+
+::-webkit-scrollbar-button {
+  width: 1px;
+  height: 1px;
+}
+
+.frontimg :hover {z-index:9999;}
+
+.scroll-info, header {
+  position: absolute;
+  left: 1rem;
+}
+
+/*nav */
 .topnav {
   overflow: hidden;
   background-color: #ffffff;
@@ -21,48 +41,6 @@
   color: #4166f5;
 }
 
-body {
-  font-family: Hepta Slab, sans-serif;
-  font-weight: 500;
-  background: #ffffff;
-}
-* {
-  box-sizing: content-box;
-}
-
-/* hide scrollbar */
-::-webkit-scrollbar {
-  width: 1px;
-  height: 1px;
-}
-
-::-webkit-scrollbar-button {
-  width: 1px;
-  height: 1px;
-}
-
-.frontimg :hover {z-index:9999;}
-
-.scroll-info, header {
-  position: absolute;
-  left: 1rem;
-}
-
-header {
-  bottom: 1rem;
-}
-.scroll-info {
-  top: 1rem;
-}
-
-h1 {
-  font-weight: 400;
-  font-size: 25pt;
-  color: #000000;
-  position: relative;
-  text-align: center;
-}
-
 /* Back arrow */
 
 .button {
@@ -84,6 +62,34 @@ h1 {
   transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
 }
+body {
+  font-family: Hepta Slab, sans-serif;
+  font-weight: 500;
+  background: #ffffff;
+}
+* {
+  box-sizing: content-box;
+}
+h1 {
+  font-weight: 400;
+  font-size: 25pt;
+  color: #000000;
+  position: relative;
+  text-align: center;
+}
+
+
+
+header {
+  bottom: 1rem;
+}
+.scroll-info {
+  top: 1rem;
+}
+
+
+
+
 
 .item-a {
   width: 70vw;
