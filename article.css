@@ -90,7 +90,7 @@ h1 {
 .item-a {
   width: 70vw;
   height: 20vw;
-  position: absolute;
+  position: relative;
   margin: auto;
   top: 50px;
   padding: 2rem;
