@@ -1,0 +1,100 @@
+/*NAVIGATION */
+
+.topnav {
+  overflow: hidden;
+  z-index: -1;
+}
+
+.topnav a {
+  float: right;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 15px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.topnav a:hover {
+  color: #bababa;
+}
+
+.topnav a.active {
+  color: #4166f5;
+}
+
+/*END NAVIGATION */
+
+/*BODY*/
+body {
+  background-color: #161424;
+  font-family: Hepta Slab, sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+}
+* {
+  box-sizing: content-box;
+}
+
+/*canvas {
+  display:block;
+  vertical-align: bottom;
+} */
+
+/* hide scrollbar */
+::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+
+::-webkit-scrollbar-button {
+  width: 1px;
+  height: 1px;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 11.5pt;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 18pt;
+}
+
+
+
+.item-b {
+  top: 20%;
+  left: 10%;
+  position: absolute;
+  margin-left: 3rem;
+  z-index: 1;
+}
+
+.item-c {
+  width: 400px;
+  height: 100px;
+  position: absolute;
+  line-height:1.5;
+  top: 23.5%;
+  right: 14%;
+}
+
+.item-c a:hover {
+  opacity: .7;
+}
+
+
+
+
+
+
+
+/*END BODY */
+

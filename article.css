@@ -1,0 +1,98 @@
+
+/* hide scrollbar */
+::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+
+::-webkit-scrollbar-button {
+  width: 1px;
+  height: 1px;
+}
+
+.frontimg :hover {z-index:9999;}
+
+.scroll-info, header {
+  position: absolute;
+  left: 1rem;
+}
+
+/*nav */
+.topnav {
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.topnav a {
+  float: right;
+  color: #bababa;
+  text-align: center;
+  padding: 14px 15px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.topnav a:hover {
+  background-color: none;
+  color: #000000;
+}
+
+.topnav a.active {
+  color: #4166f5;
+}
+
+/* Back arrow */
+
+.button {
+  width: 17px;
+  height: 17px;
+  position: fixed;
+  border: solid #bababa;
+  border-width: 0 5px 5px 0;
+  z-index: 1;
+  display: inline-block;
+  margin: 25px;
+}
+
+.button:hover {
+  border: solid #4166f5;
+  border-width: 0 5px 5px 0;
+
+}
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+header {
+  bottom: 1rem;
+}
+.scroll-info {
+  top: 1rem;
+}
+
+body {
+  font-family: Hepta Slab, sans-serif;
+  font-weight: 500;
+  background: #ffffff;
+}
+* {
+  box-sizing: content-box;
+}
+h1 {
+  font-weight: 500;
+  font-size: 25pt;
+  color: #000000;
+  position: relative;
+  text-align: center;
+}
+
+.item-a {
+  width: 70vw;
+  height: 20vw;
+  position: relative;
+  margin: auto;
+  top: 50px;
+  padding: 2rem;
+  background-color: #ff4d4d;
+  }
